@@ -15,7 +15,7 @@ function cambiarDolares() {
         alert('El monto ingresado es incorrecto')
     }
         else{
-        alert('$'+ ingresoPesos+ ' pesos argentinos son US$'+resultado + '. El impuesto país es de $' + impuestoPais + ' y las retenciones equivalen a $'+ retencionGanancias+' pesos argentinos. El total a pagar por US$' + resultado +' es de $'+ valorReal)
+        alert('$'+ ingresoPesos+ ' pesos argentinos son US$'+ Math.round(resultado )+ '. El impuesto país es de $' + impuestoPais + ' y las retenciones equivalen a $'+ retencionGanancias+' pesos argentinos. El total a pagar por US$' + Math.round(resultado) +' es de $'+ valorReal)
     }
 
 
